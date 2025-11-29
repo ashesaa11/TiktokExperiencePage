@@ -22,6 +22,7 @@ fun imageLoaderProvider(
         .connectTimeout(5, TimeUnit.SECONDS)
         .readTimeout(5, TimeUnit.SECONDS)
         .writeTimeout(5, TimeUnit.SECONDS)
+        .retryOnConnectionFailure(true)
         .build()
 
     //返回创建的ImageLoader
