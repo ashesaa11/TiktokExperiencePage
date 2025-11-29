@@ -63,9 +63,6 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
-// ===================== Google Firebase 依赖 =====================
-    implementation(platform("com.google.firebase:firebase-bom:33.5.1")) // Firebase 版本管理
-
 // ===================== Jetpack Compose 依赖 =====================
     implementation("androidx.compose.foundation:foundation:1.5.0")      // 基础组件
     implementation("androidx.compose.material3:material3:1.4.0-alpha05") // Material3 UI 样式，
