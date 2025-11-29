@@ -8,9 +8,9 @@
 
 `tiktokExperienceApp` 是一个使用 Kotlin 和 Jetpack Compose 构建的 Android 应用，主要功能是：
 
-- 单/双列瀑布流卡片，（仿 TikTok经验面 风格）
-- 图片异步加载与缓存（使用 Coil）
-- 下拉刷新（SwipeRefresh）
+- 单/双列瀑布流卡片
+- 图片异步加载与缓存
+- 下拉刷新
 - 支持无限滚动加载下一页
 - 支持切换列数展示
 
