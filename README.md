@@ -40,17 +40,17 @@
 
 ---
 ## 项目结构
-tiktokExperienceApp/
-├─ app/src/main/java/com/example/tiktok
-│ ├─ MainActivity.kt # 入口Activity，设置NavHost
-│ ├─ ui/screens/ # 页面Screen
-│ │ ├─ ExperienceScreen.kt
-│ │ └─ SplashScreen.kt
-│ ├─ ui/components/ # UI组件（卡片、顶部/底部栏等）
-│ ├─ ui/theme/ # 主题相关文件
-│ └─ viewmodel/ # ViewModel管理数据
-├─ build.gradle.kts # Gradle构建脚本
-└─ lib.version.toml # 版本和依赖管理
+-tiktokExperienceApp/
+-├─ app/src/main/java/com/example/tiktok
+-│ ├─ MainActivity.kt # 入口Activity，设置NavHost
+-│ ├─ ui/screens/ # 页面Screen
+-│ │ ├─ ExperienceScreen.kt
+-│ │ └─ SplashScreen.kt
+-│ ├─ ui/components/ # UI组件（卡片、顶部/底部栏等）
+-│ ├─ ui/theme/ # 主题相关文件
+-│ └─ viewmodel/ # ViewModel管理数据
+-├─ build.gradle.kts # Gradle构建脚本
+-└─ lib.version.toml # 版本和依赖管理
 
 
 ---
@@ -93,7 +93,7 @@ implementation("io.coil-kt:coil-compose:2.7.0") // Compose 图片加载
 
 // ===================== JSON解析（可选） =====================
 implementation("com.google.code.gson:gson:2.10.1") // 数据解析
----
+
 
 
 
